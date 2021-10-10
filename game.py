@@ -1,8 +1,7 @@
 import random
 import time
-players_list = ["Rohit Sharma:4", "Aditya Singh:4", "Virat Kohli:5", "Shreyas Iyer:3", "KL Rahul:4", "Hardik Pandaya:2", "Krunal Pandaya:2", "Bhuvneshwar Kumar:1", "Shardul Thakur:1", "Yuzvendra Chahal:1", "Jasprit Bumrah:1"]
+players_list = ["Rohit Sharma:4", "Aditya Singh:4", f"Virat Kohli:{random.randint(2, 6)}", "Shreyas Iyer:3", "KL Rahul:4", "Hardik Pandaya:2", "Krunal Pandaya:2", "Bhuvneshwar Kumar:1", "Shardul Thakur:1", "Yuzvendra Chahal:1", "Jasprit Bumrah:1"]
 # default values
-
 player1 = players_list[0]
 player2 = players_list[1]
 player_stars = [3, 3, 4, 2, 3, 2, 2, 1, 1, 1, 1]
