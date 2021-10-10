@@ -25,9 +25,9 @@ except:
 team_strike_rate = 0
 runs_option_list = [1,2,2,3,3,3,4,4,4,6,6,6,6]
 bowlers_list = ["Glenn Macrga","Jimmy Anderson", "Josh Hazelwood", "Muttiah Murlidharan", "Shane Warne", "Mitchell Starc"]
-bowlers_over_list = [0, 0, 0, 0, 0, 0, 0]
-bowler_run_list = [0, 0, 0, 0, 0, 0, 0]
-bowler_wicket_list = [0, 0, 0, 0, 0, 0, 0]
+bowlers_over_list = [i for i in range(6)]
+bowler_run_list = [i for i in range(6)]
+bowler_wicket_list = [i for i in range(6)]
 bowler_bowls = 0
 bowler = random.choice(bowlers_list)
 team_overs = 0
